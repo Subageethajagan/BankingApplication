@@ -1,0 +1,129 @@
+/* customerpage.css */
+.background-container {   background-image: url('src/assets/download.jpg'); 
+  background-size: cover; /* Adjusts the background image to cover the entire container */
+  background-position: center; /* Centers the background image */
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+  display: flex; 
+  justify-content: center;  
+  align-items: center; }
+
+.container {
+    text-align: center;
+    background-color: #bbf58b; /* Light gray background */
+    padding: 20px;
+    margin-left: -2%;
+    margin-top: -2%;
+    margin-right: -2%;
+    margin-bottom: 50px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    background-color: rgb(227, 245, 234); /* Black color for navbar */
+    color: rgb(29, 31, 29);
+    margin-bottom: 20px; /* Remove gap between navbar and content */
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rbi-logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Change font as needed */
+    margin-right: 10px; /* Adjust space between logo and text */
+  }
+  
+  .button-container {
+    margin-top: 17px;
+  }
+  
+  .button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #b8f5bf; /* Green color */
+    color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 55px;
+  }
+  
+.button-container button:hover{
+  background-color: #deffe2;
+}
+
+  .bank-info {
+    margin-top: 45px;
+    margin-left:20px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  
+  .bank-info h2 {
+    font-size: 24px;
+  }
+  
+  .bank-info p {
+    font-size: 25px; /* Smaller font size for contact details */
+    line-height: 1.3; /* Tighter line height */
+  }
+  
+  .bank-info h3 {
+    margin-top: 25px;
+    font-size: 45px;
+  }
+  
+  .bank-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .bank-info ul li {
+    margin-bottom: 5px; /* Reduce margin between contact details */
+  }
+  
+  .bank-info ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer {
+    background-color: #cfecc2; /* Dark background color for footer */
+    color: rgb(17, 17, 17);
+    margin-top: 60px;
+    margin-left: 410px;
+    padding: 15px;
+    margin-bottom: -5%;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    
+  }
+  
+  .footer p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li:last-child {
+    margin-bottom: 0;
+  }
+  

@@ -1,0 +1,37 @@
+.user-details {
+    padding: 20px;
+  }
+  
+  .user-details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .user-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-details li {
+    margin-bottom: 20px;
+  }
+  
+  .user-details strong {
+    font-weight: bold;
+  }
+  
+  .user-details p {
+    margin: 0;
+  }
+  
+  /* Optional: Style for individual fields */
+  .user-details .field-name {
+    color: #007bff; /* Example color for field names */
+  }
+  
+  .user-details .field-value {
+    color: #28a745; /* Example color for field values */
+  }
+  
+  /* Add additional styling as needed */
+  

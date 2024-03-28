@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dff7df;
+}
+.background-container {   background-image: url('src/assets/download.jpg'); 
+    background-size: cover; /* Adjusts the background image to cover the entire container */
+    background-position: center; /* Centers the background image */
+    min-height: 100vh; /* Ensures the background covers the entire viewport height */
+    display: flex; 
+    justify-content: center;  
+    align-items: center; }
+
+.maincustomer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #cbf7cd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-details {
+    flex: 1;
+}
+
+.customer-details h2 {
+    margin-top: 0;
+    color: #131212; /* Darker color for headings */
+}
+
+.customer-details p {
+    margin: 5px 0;
+    color: #141414; /* Slightly darker color for paragraphs */
+}
+
+.customer-details .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.customer-details .buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #93ecb4;
+    color: #1b1a1a;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.customer-details .buttons button:hover {
+    background-color: #c8f3cf;
+}
+
+/* Additional Styling for Visual Enhancement */
+.maincustomer {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.customer-details {
+    padding-right: 20px; /* Add some space on the right for separation */
+    text-align: center;
+}
+
+.customer-details p {
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+.customer-details .buttons button {
+    border: 0.5px solid #e4f7e4; /* Add border for buttons */
+    transition: all 0.3s ease-in-out; /* Smoother transition for all button properties */
+}
+
+.customer-details .buttons button:hover {
+    background-color: #dcf1db;
+    border-color: #09410d; /* Change border color on hover */
+    transform: translateY(-2px); /* Add a slight upward movement on hover */
+}

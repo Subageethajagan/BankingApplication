@@ -1,0 +1,64 @@
+/* styles.css */
+.background-container {   background-image: url('src/assets/download.jpg'); 
+  background-size: cover; /* Adjusts the background image to cover the entire container */
+  background-position: center; /* Centers the background image */
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+  display: flex; 
+  justify-content: center;  
+  align-items: center; }
+
+.green-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 4px auto; /* Center the buttons horizontally */
+    display: block; /* Make buttons occupy full width */
+  }
+  
+  .green-button:hover {
+    background-color: #45a049; /* Darker Green */
+  }
+  
+  .confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-modal p {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-modal button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .confirmation-modal button:hover {
+    background-color: #45a049; /* Darker Green */
+  }
+  h1{
+    text-align: center;
+  }

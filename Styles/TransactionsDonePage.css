@@ -1,0 +1,52 @@
+.transactions-container {
+  margin-top: 20px;
+  display: flex; /* Use flexbox to align items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line if needed */
+  justify-content: center; /* Center items horizontally */
+}
+
+.background-container {
+  background-image: url('src/assets/download.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1{
+color:black;
+margin-top: 20px;
+}
+
+.transaction-item {
+  background-color: #c0e9c0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px; /* Adjust margin for better spacing between items */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Limit width to prevent overly wide items */
+}
+
+.transaction-item > div {
+  margin-bottom: 10px;
+}
+
+.transaction-item strong {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.transaction-type {
+  color: #69f169;
+}
+
+.transaction-amount {
+  color: #6bc56b;
+}
+
+.transaction-timestamp {
+  color: #81f58a;
+}
